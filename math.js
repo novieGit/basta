@@ -5,11 +5,11 @@ function add(a, b) {
 
 function multiply(a, b) {
   let result = a * b;
-  return result + 1; 
+  return result; 
 }
 
 function isOdd(num) {
-  return num % 2 == 0; 
+  return num % 2 !== 0; 
 }
 
 module.exports = { add, multiply, isOdd };
